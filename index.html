@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+<head>
+	<link href="style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<div id="menubar">
+		<div id="menu-content">
+			<span>
+				<a href="index.html" id="menulogo"><img src="MenuBarLogo.png"></a>
+				<a href="index.html">WORKS</a>
+				<a href="#">ABOUT</a>
+				<a href="#">CONTACT</a>
+			</span>
+		</div>	
+	</div>
+	<div id="landing-background">
+		<div id="landing-logo">
+		</div>
+	</div>
+	<div id="project-list-div">
+		<ul id="projects-list">
+			<li id="illustration">
+				<a href="illustrate.html">
+				</a>
+				<span id="illustrationspan" class="bgspan">
+					<span class="label">Illustration</span></span>
+			</li>
+			<li id="product">
+				<a href="productdesign.html">
+				</a>
+				<span id="productspan" class="bgspan">
+					<span class="label">
+						Product Design
+					</span>
+				</span>
+			</li>
+			<li id="swank">
+				<a href="swankalbum.html">
+				</a>
+				<span id="swankspan" class="bgspan">
+					<span class="label">Album Cover</span></span>
+			</li>
+			<li id="kposter">
+				<a href="kishi_poster.html">
+				</a>
+				<span id="kposterspan" class="bgspan">
+					<span class="label">Tour Poster</span></span>
+			</li>
+			<li id="fruit">
+				<a href="box_logo.html">
+				</a>
+				<span id="fruitspan" class="bgspan">
+					<span class="label">Packaging Design</span></span>
+			</li>
+			<li id="kshirt">
+				<a href="KishiTee.html">
+				</a>
+				<span id="kshirtspan" class="bgspan">
+					<span class="label">T-Shirt Design</span></span>
+			</li>
+			<li id="landingicondesign">
+				<a href="icondesign.html">
+				</a>
+				<span id="landingicondesignspan" class="bgspan">
+					<span class="label">Icon Design</span></span>
+			</li>
+		</ul>
+	</div>
+	<div class="section-title">
+		<div class="section-container">
+			<p id="about_me">About Me</p>
+			<div id="profile">
+			</div>
+			<div id="about_me_content">
+				<p>Hi I am Lin. I am a visual designer based in San Francisco. While I have my Bachelor's in Architecture, I have earned my M.S in Graphic Communications. Learning mad JavaScript now. Web deveolpment is where my passion is. <hr>Having a rich background in major printing processes and 3D modeling, I have a big passion for product designs. I also love graphic design and illustration. I love playing with colors, typography and being able to create. Color management is actually what I focused in graduate school. Nowadays, I am learning new skills in the hopes of becoming a great front end web developer. :) Let's see what else I'd add to my portfolio shortly. </p>
+			</div>
+		</div>
+		<div id="social">
+			<div id="email">
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		Copyright © 2014 Lin Wang
+	</div>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+Height = 678;
+$(window).scroll( function () {
+	$('#landing-logo').css('opacity', Math.max(0, 1 - $(window).scrollTop()/Height) );
+	$('#menubar').css('top', Math.min(0, 100*$(window).scrollTop()/Height - 100) );
+});
+
+$("#projects-list>li a").hover(function () {
+	$( this ).siblings("span").children(".label").toggleClass('fullsize');
+});
+</script>
+</html>

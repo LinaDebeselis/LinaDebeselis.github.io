@@ -1,0 +1,579 @@
+body {
+	background-color: #464646;
+	margin: 0;
+	font-family: "Helvetica Neue", sans;
+	font-weight: 100;
+	color: white;
+}
+
+a {
+	color: inherit;
+	font-style: inherit;
+	text-decoration: inherit;
+}
+
+#menulogo {
+	float:left;
+	display:inline;
+	position:left;
+	padding-left: 50px;
+	top: -40px;
+}
+
+#menubar * {
+	display: inline;
+	position: relative;
+	text-align: right;
+	padding-right: 80px;
+	padding-top: 15px;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menubar span {
+	display: inline-block;
+  	position: right;
+  	width: 100%;
+  	height: 0;
+}
+
+#menubar {
+	text-align: right;
+	padding-right:100px;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+	height: 50px;
+	top: -100px;
+}
+
+#menu-content {
+	color: white;
+	padding-right: 250px;
+	width: 920px;
+	font-weight: 300;
+	margin: 0 auto;
+
+}
+
+#menu-content span {
+	margin-right: 300px;
+}
+
+#landing-background {
+	background:url(LandingPageBackground.jpg) center center repeat;
+    display: block;
+	height: 768px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+}
+
+#project-list-div {
+	margin-top: 768px;
+	postion: relative;
+}
+
+#landing-logo {
+	background:url(LandingPageText.png) center bottom no-repeat;
+    display: block;
+	height: 90%;
+	width: 100%;
+}
+
+#projects-list {
+	margin: 0;
+	padding: 0;
+}
+
+#projects-list>li {
+	display: block;
+	height: 270px;
+	width: 100%;
+	position: relative;
+}
+
+#projects-list>li a:hover {
+	background: transparent;
+}
+
+#projects-list>li a {
+	background: rgba(0,0,0,0.8);
+	-webkit-transition: background .2s linear;
+	-moz-transition: background .2s linear;
+	-o-transition: background .2s linear;
+	transition: background .2s linear;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	height: 270px;
+	width: 100%;
+	z-index: 8888;
+}
+
+#product {
+    background: #fcb6be;
+}
+
+.bgspan {
+	display: block;
+	height: 270px;
+	width: 100%;
+	line-height: 270px;
+	font-size: 2em;
+	padding-left: 0;
+}
+
+#productspan { 
+    background:url(imgs/PortfolioLanding01_04.png) center center no-repeat;
+}
+
+.label {
+	background-color: rgba(0,0,0,0.6);
+	padding-left: 0.2em;
+	padding-right: 0.3em;
+	text-align: right;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: opacity .4s linear;
+	-moz-transition: opacity .4s linear;
+	-o-transition: opacity .4s linear;
+	transition: opacity .4s linear;
+	min-width: 7.6em;
+}
+
+.fullsize {
+	opacity: 1;
+}
+
+#illustration {
+    background: #cbdfdd;
+}
+
+#illustrationspan { 
+    background:url(imgs/PortfolioLanding01_02.png) center center no-repeat;
+}
+
+#kposter {
+    background: #ffffff;
+}
+
+#kposterspan { 
+    background:url(imgs/PortfolioLanding01_05.jpg) center center no-repeat, #84bfb9;
+}
+
+#swank {
+    background: #f77c75;
+}
+
+#swankspan { 
+    background:url(imgs/PortfolioLanding01_03.jpg) center center repeat;
+}
+
+#fruit {
+    background: #4db7c5;
+}
+
+#fruitspan { 
+    background:url(imgs/PortfolioLanding01_06.jpg) center center no-repeat;
+}
+
+#kshirt {
+	background: #7accc8;
+}
+
+#kshirtspan {
+	background:url(imgs/LandingKshirt.png) center center no-repeat;
+	display: block;
+	height:270px;
+	width: 100%;
+}
+
+#landingicondesign {
+	background: #fff;
+}
+
+#landingicondesignspan {
+	background:url(imgs/landingicon.gif) center center repeat;
+	display: block;
+	height:270px;
+	width: 100%;
+}
+
+#kishi-tee-background {
+	background: #bbd7bc center center no-repeat;
+	height:100%;
+	width:100%;
+	margin-top:auto;
+
+}
+
+#kishi-tee-logo {
+	background:url(imgs/KishiTee/KishiBashiTeeBanner.png) center top no-repeat;
+	background-size: 80%;
+	display:block;
+	height: 600px;
+	width: 1200px;
+	margin:auto;
+	margin-top:50px;
+}
+
+#kishi-half {
+	background: #000000 center center repeat;
+	height:100px;
+	width: 100%;
+	position:inherit;
+	padding: auto;
+	display: inline-block;
+
+}
+
+#kishi-t-comment p {
+	background-color: #000000;
+	display:block;
+	margin: auto;
+	position: relative;
+	padding-right:400px;
+	padding-left:400px;
+	padding-top: 30px;
+	padding-bottom:30px;
+	text-align:justify;
+}
+
+.imgleft {
+	margin-left:300px;
+	width: 30%;
+	display: inline;
+
+}
+.imgright {
+	float:right;
+	width: 30%;
+	margin-right:100px;
+	display: inline;
+}
+
+#tshirt {
+	background:url(imgs/KishiTee/melongirl.png) center center no-repeat;
+	background-size: 40%;
+	background-color: #7accc8;
+	margin: 200px auto 0px;
+	width: 100%;
+	height:900px;
+}
+#kishi-half span {
+	background:center center no-repeat;
+	display: inline-block;
+	margin: auto;
+	padding: auto;
+	float:left;
+}
+.bluebox {
+	background: #4db7c5 url(imgs/fruiticon/bluebox.jpg) center bottom no-repeat;
+	background-size: 70%;
+	width:100%;
+	height: 600px;
+	margin-top: 50px;
+}
+.pinkbox {
+	background: #f2436e url(imgs/fruiticon/pinkbox.jpg) center bottom no-repeat;
+	background-size: 70%;
+	width:100%;
+	height: 400px;
+	padding-top:20%;
+}
+
+.box-heading h1 {
+	margin:auto;
+	background: #000;
+	padding:30px;
+	font-size: 2em;
+	text-align: center;
+}
+.box-script span {
+	background-color: #000000;
+	display:block;
+	margin: 50px auto 0px;
+	position: relative;
+	padding-right:400px;
+	padding-left:400px;
+	padding-top: 30px;
+	padding-bottom:30px;
+	text-align:justify;
+}
+.fruitlogo {
+	background: #e0e0e0 url(imgs/fruiticon/FruitIconDesignAll_03.gif) center center repeat-x;
+	background-size: 50%;
+	width: 100%;
+	height: 600px;
+	margin-top: 50px;
+}
+
+.illustrate-head {
+	background: url("imgs/illustrations/headerMe.png") center right no-repeat, url("imgs/illustrations/illustratetitlebg.jpg") center center repeat-x;
+	background-size: auto;
+	width: 100%;
+	height:500px;
+	margin-top: 50px;
+}
+
+.illustrate-head h1 {
+	text-align: left;
+	float:left;
+	padding: 160px;
+	font-size: 4em;
+}
+.illus-col1 {
+	display:inline-block;
+	background: #e5f8f1 center center no-repeat;
+	height:100%;
+	margin: 30px 20px 0px;
+	border-radius: 30px;
+	width:54%;
+}
+
+.illustration {
+	margin:auto;
+	padding: 20px;
+}
+
+.illus-col2 {
+	background-color: #000;
+	border-radius: 20px;
+	display:inline-block;
+	width: 35%;
+	padding: 20px;
+	float:right;
+	margin-right:40px;
+	margin-top: 30px;
+	text-align:justify;
+}
+
+.product-head h1 {
+	text-align: left;
+	float:left;
+	padding: 160px;
+	font-size: 2em;
+}
+
+.product-head {
+	background: url("imgs/productdesign/productlogo.png") center right no-repeat, url("imgs/productdesign/productbg.jpg") center center repeat-x;
+	background-size: auto;
+	width: 100%;
+	height:350px;
+	margin-top: 30px;
+}
+
+.bluebottle {
+	background:url("imgs/productdesign/BottleDesign.JPG") center center no-repeat, #141301 center center repeat;
+	background-size:auto;
+	width:100%;
+	height:723px;
+}
+
+.spraybottle {
+	background:url("imgs/productdesign/SprayBottle.JPG") center center no-repeat, #eaa9c7 center center repeat;
+	background-size:auto;
+	width:100%;
+	height:676px;
+}
+
+.donut {
+	background:url("imgs/productdesign/DonutDesign.JPG") center center repeat;
+	background-size:auto;
+	width:100%;
+	height:683px;
+}
+
+.donutbasic {
+	background:url("imgs/productdesign/DonutBasic.jpg") center center repeat;
+	background-size:auto;
+	width:100%;
+	height:480px;
+}
+
+.productscript h1 {
+	background: #000;
+	text-align: left;
+	padding: 20px;
+	font-size: 1.25em;
+}
+
+.productscript p {
+	background: #000;
+	text-align: justify;
+	float:left;
+	padding: 20px;
+	font-size: 1em;
+	width:200px;
+}
+
+.lantern {
+	background:url("imgs/productdesign/Lantern.jpg") center center repeat;
+	background-size:auto;
+	width:100%;
+	height:400px;
+}
+
+.greekvase {
+	background:url("imgs/productdesign/greekvase.jpg") center center repeat;
+	background-size:auto;
+	width:100%;
+	height:600px;
+}
+
+.kishiposter {
+	background:url("imgs/KishiPoster/KishiPoster.jpg") center center no-repeat, #fff;
+	background-size: auto;
+	width: 100%;
+	height: 407px;
+	margin-top: 80px;
+}
+
+.kishiposterlogo {
+	background:url("imgs/KishiPoster/KishiPosterTitle.png") center center no-repeat, #fff;
+	width: auto;
+	height: 228px;
+	padding: 50px;
+}
+
+.kishiposter-script {
+	background-color: #000000;
+	display:block;
+	margin: auto;
+	position: relative;
+	padding-right:400px;
+	padding-left:400px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	text-align:justify;
+}
+
+.swankcover {
+	background:url("imgs/Swank/SwankCoverArt.jpg") center center no-repeat, #f97c76;
+	background-size: auto;
+	width: 100%;
+	height: 750px;
+	margin-top: 80px;
+}
+
+.swanklogo {
+	background:url("imgs/Swank/SwankAlbumTitle.png") center center no-repeat, #fff;
+	width: auto;
+	height: 252px;
+	padding: 50px;
+}
+
+.swank6 {
+	background:url("imgs/Swank/swankoption.jpg") center center repeat;
+	background-size: auto;
+	width: auto;
+	height: 600px;
+	margin-top: 80px;
+}
+
+.iconscript {
+	background-color: #000000;
+	display:block;
+	margin: auto;
+	position: relative;
+	padding-right:400px;
+	padding-left:400px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	text-align:justify;
+}
+
+.icons {
+	background: #fff;
+	height: 450px;
+	width:auto;
+}
+
+.icons span {
+	display:inline-block;
+	padding:30px;
+	width:600px;
+	float:left;
+}
+
+.iconshoplogo {
+	background:url(imgs/ShopIcon/ShopIcon_main.png) center center no-repeat, #ff2;
+	background-size: 15%;
+	height:300px;
+	width:auto;
+	float-right;
+	padding:30px 100px;
+}
+
+.backup {
+	text-align:center;
+	padding-top:20px;
+}
+
+.section-title {
+	background: #fff center center no-repeat;
+	width: 100%;
+	height: 1000px;
+	margin-top:0;
+	position: relative;
+}
+
+.section-container {
+	background: #fff center center no-repeat;
+	margin:auto;
+	width:800px;
+	height:530px;
+}
+
+#about_me {
+	background-color: #67c5bf;
+	color: #fff;
+	text-align:center;
+	line-height:2em;
+	font-size:3em;
+}
+
+#profile {
+	background:url(imgs/contact/profilepic.png) left center no-repeat;
+	width: 268px;
+	height: 244px;
+	float: left;
+}
+
+#about_me_content {
+	font-size:1.125em;
+	background-color: #67c5bf;
+	text-align: justify;
+	display: inline-block;
+	width: 400px;
+	float: left;
+	padding: 20px;
+	margin-left: 80px;
+	border-radius: 20px
+}
+
+#social {
+	background: #67c5bf center center no-repeat;
+	width: 100%;
+	height:400px;
+	display: inline-block;
+	margin-top:60px;
+}
+
+
+#footer {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
