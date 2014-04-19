@@ -549,7 +549,7 @@ a {
 #about_me_content {
 	font-size:1.125em;
 	background-color: #67c5bf;
-	text-align: justify;
+	text-align: left;
 	display: inline-block;
 	width: 400px;
 	float: left;
