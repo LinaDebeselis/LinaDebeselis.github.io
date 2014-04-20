@@ -568,11 +568,12 @@ a {
 
 .social-list {
 	background:#67c5bf center center no-repeat;
-	width: 43%;
+	width: 40%;
 	height: 300px;
 	list-style-type:none;
-	margin:auto;
+	margin-right:180px;
 	float:right;
+	z-index:8888;
 }
 
 .social-list-left {
@@ -634,6 +635,11 @@ a {
 
 .social-left {
 	margin-left:100px;
+}
+
+#connectme {
+	font-size:4em;
+	float:left;
 }
 
 #footer {
