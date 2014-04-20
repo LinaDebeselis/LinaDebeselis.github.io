@@ -528,7 +528,6 @@ a {
 	background: #fff center center no-repeat;
 	margin:auto;
 	width:800px;
-	height:530px;
 }
 
 #about_me {
@@ -566,6 +565,71 @@ a {
 	margin-top:60px;
 }
 
+.social-list {
+	background:#67c5bf center center no-repeat;
+	width: 43%;
+	height: 300px;
+	list-style-type:none;
+	margin:auto;
+	float:right;
+}
+
+.social-list-left {
+	background:#fff center center no-repeat;
+	width: 46%;
+	height: 400px;
+	list-style-type:none;
+	margin:auto;
+	float:left;
+}
+
+#email_me {
+	background:url(imgs/contact/emailtext.png) center center no-repeat, url(imgs/contact/email.png) center center no-repeat;
+	width:225px;
+	height:250px;
+	float:left;
+	display:inline-block;
+}
+
+#thanks {
+	background:url(imgs/contact/enjoysticker.png) center center no-repeat;
+	width: 225px;
+	height: 250px;
+	float:left;
+	display:inline-block;
+}
+
+#insta {
+	background:url(imgs/contact/inslg.png) center bottom no-repeat;
+	width: 60px;
+	height: 250px;
+	float:left;
+	display:inline-block;
+}
+
+#linkedin {
+	background:url(imgs/contact/linkedlg.png) center bottom no-repeat;
+	width: 60px;
+	height: 250px;
+	float:left;
+	display:inline-block;
+}
+
+#fb {
+	background:url(imgs/contact/fblg.png) center bottom no-repeat;
+	width: 60px;
+	height: 250px;
+	float:left;
+	display:inline-block;
+}
+
+#be {
+	background:url(imgs/contact/behancelg.png) center bottom no-repeat;
+	width: 60px;
+	height: 250px;
+	float:left;
+	display:inline-block;
+}
 
 #footer {
 	width: 100%;
