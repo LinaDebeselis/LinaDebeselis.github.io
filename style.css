@@ -585,7 +585,7 @@ a {
 }
 
 #email_me {
-	background:url(imgs/contact/emailtext.png) center center no-repeat, url(imgs/contact/email.png) center center no-repeat;
+	background:url(imgs/contact/email.png) center center no-repeat;
 	width:225px;
 	height:250px;
 	float:left;
