@@ -108,13 +108,44 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 Height = 678;
-$(window).scroll( function () {
-	$('#landing-logo').css('opacity', Math.max(0, 1 - $(window).scrollTop()/Height) );
-	$('#menubar').css('top', Math.min(0, 100*$(window).scrollTop()/Height - 100) );
-});
+$(window).scroll( 
+	function () {
+		$('#landing-logo').css('opacity', Math.max(0, 1 - $(window).scrollTop()/Height) );
+		$('#menubar').css('top', Math.min(0, 100*$(window).scrollTop()/Height - 100) );
+	}
+);
 
-$("#projects-list>li a").hover(function () {
-	$( this ).siblings("span").children(".label").toggleClass('fullsize');
-});
+var ua = {};
+ua.name = window.navigator.userAgent.toLowerCase(); 
+
+ua.isIE = (ua.name.indexOf('msie') >= 0 || ua.name.indexOf('trident') >= 0);
+ua.isiPhone = ua.name.indexOf('iphone') >= 0;
+ua.isiPod = ua.name.indexOf('ipod') >= 0;
+ua.isiPad = ua.name.indexOf('ipad') >= 0;
+ua.isiOS = (ua.isiPhone || ua.isiPod || ua.isiPad);
+ua.isAndroid = ua.name.indexOf('android') >= 0;
+ua.isTablet = (ua.isiPad || (ua.isAndroid && ua.name.indexOf('mobile') < 0));
+ 
+if (ua.isiOS) {
+}
+else if (ua.isAndroid) {
+}
+else{
+	$("#projects-list>li a").hover(function () {
+			$( this ).siblings("span").children(".label").toggleClass('fullsize');
+		}
+	);
+}
+ᐧ
+
+
+
+
+
+
+
+
+
+
 </script>
 </html>
