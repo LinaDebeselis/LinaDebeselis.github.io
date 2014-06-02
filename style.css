@@ -68,13 +68,13 @@ a {
     display: block;
 	height: 768px;
 	width: 100%;
-	position: fixed;
+	
 	top: 0;
 
 }
 
 #project-list-div {
-	margin-top: 768px;
+	
 	postion: relative;
 }
 
