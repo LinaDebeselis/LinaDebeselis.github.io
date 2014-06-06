@@ -576,30 +576,7 @@ a {
 	z-index:8888;
 }
 
-.social-list-left {
-	background:#22a9a9 center center no-repeat;
-	width: 46%;
-	height: 400px;
-	list-style-type:none;
-	margin:auto;
-	float:left;
-}
 
-#email_me {
-	background:url(imgs/contact/email.png) center center no-repeat;
-	width:225px;
-	height:250px;
-	float:left;
-	display:inline-block;
-}
-
-#thanks {
-	background:url(imgs/contact/enjoysticker.png) center center no-repeat;
-	width: 225px;
-	height: 250px;
-	float:left;
-	display:inline-block;
-}
 
 #insta {
 	background:url(imgs/contact/inslg.png) center bottom no-repeat;
@@ -633,9 +610,6 @@ a {
 	display:inline-block;
 }
 
-.social-left {
-	margin-left:100px;
-}
 
 #connectme {
 	font-size: 56px;
