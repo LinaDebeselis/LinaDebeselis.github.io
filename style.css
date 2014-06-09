@@ -159,6 +159,10 @@ a {
     background:url(imgs/PortfolioLanding01_02.png) center center no-repeat;
 }
 
+#spotifyspan {
+	background:url(imgs/spotifybanner.png) center center no-repeat, #fdc689;
+}
+
 #kposter {
     background: #ffffff;
 }
@@ -477,39 +481,6 @@ a {
 	margin-top: 80px;
 }
 
-.iconscript {
-	background-color: #000000;
-	display:block;
-	margin: auto;
-	position: relative;
-	padding-right:400px;
-	padding-left:400px;
-	padding-top: 20px;
-	padding-bottom:20px;
-	text-align:justify;
-}
-
-.icons {
-	background: #fff;
-	height: 450px;
-	width:auto;
-}
-
-.icons span {
-	display:inline-block;
-	padding:30px;
-	width:600px;
-	float:left;
-}
-
-.iconshoplogo {
-	background:url(imgs/ShopIcon/ShopIcon_main.png) center center no-repeat, #ff2;
-	background-size: 15%;
-	height:300px;
-	width:auto;
-	float-right;
-	padding:30px 100px;
-}
 
 .backup {
 	text-align:center;
@@ -602,8 +573,8 @@ a {
 	display:inline-block;
 }
 
-#be {
-	background:url(imgs/contact/behancelg.png) center bottom no-repeat;
+#twitter {
+	background:url(imgs/contact/twitterlg.png) center bottom no-repeat;
 	width: 60px;
 	height: 250px;
 	float:left;
@@ -614,6 +585,34 @@ a {
 #connectme {
 	font-size: 56px;
 	float:left;
+}
+
+.projectwrap {
+	width:80%;
+	margin:auto;
+	padding: 10%;
+	background-color: #fff;
+	color:#000;
+	font-size:1.2em;
+	font-weight: 300;
+	width:80%;
+}
+
+.caption {
+	font-size:0.65em;
+	float:left;
+}
+
+.spotifyimage {
+	padding:auto;
+	position:relative;
+	background-size: 80%;
+}
+
+#spotitwo {
+	background:url("imgs/spotifybanner.png") center center repeat;
+	height: 300px;
+	background-size: 50%;
 }
 
 #footer {
