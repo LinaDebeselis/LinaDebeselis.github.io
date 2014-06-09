@@ -611,8 +611,8 @@ a {
 
 #spotitwo {
 	background:url("imgs/spotifybanner.png") center center repeat;
-	height:300px;
-	background-size: 100%;
+	height: 300px;
+	background-size: 50%;
 }
 
 #footer {
