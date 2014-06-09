@@ -408,13 +408,12 @@ a {
 	font-size: 1.25em;
 }
 
-.productscript p {
-	background: #000;
+.productscript p, #productrole{
 	text-align: justify;
-	float:left;
-	padding: 20px;
+	
+	padding-left: 40px;
 	font-size: 1em;
-	width:200px;
+	width:300px;
 }
 
 .lantern {
