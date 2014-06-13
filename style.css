@@ -529,13 +529,6 @@ a {
 	display:inline-block;
 }
 
-#fb {
-	background:url(imgs/contact/fblg.png) center bottom no-repeat;
-	width: 60px;
-	height: 250px;
-	float:left;
-	display:inline-block;
-}
 
 #twitter {
 	background:url(imgs/contact/twitterlg.png) center bottom no-repeat;
