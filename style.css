@@ -484,6 +484,7 @@ a {
 #about_me_content {
 	font-size:1.125em;
 	background-color: #67c5bf;
+	letter-spacing: 0.069em;
 	text-align: left;
 	display: inline-block;
 	width: 400px;
