@@ -6,6 +6,10 @@ body {
 	color: white;
 }
 
+p {
+	letter-spacing:0.05em;
+}
+
 a {
 	color: inherit;
 	font-style: inherit;
@@ -251,6 +255,7 @@ a {
 	padding-top: 30px;
 	padding-bottom:30px;
 	text-align:justify;
+	letter-spacing: 0.08em;
 }
 
 .imgleft {
@@ -299,9 +304,8 @@ a {
 }
 .illus-col1 {
 	display:inline-block;
-	background: #e5f8f1 center center no-repeat;
 	height:100%;
-	margin: 30px 20px 0px;
+	margin: auto;
 	border-radius: 30px;
 	width:54%;
 }
@@ -317,9 +321,9 @@ a {
 	display:inline-block;
 	width: 35%;
 	padding: 20px;
-	float:right;
-	margin-right:40px;
-	margin-top: 30px;
+	float:left;
+	margin-left:6em;
+	margin-top: 3%;
 	text-align:justify;
 }
 
