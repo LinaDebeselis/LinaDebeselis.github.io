@@ -508,8 +508,8 @@ a {
 
 .social-list {
 	background:#67c5bf center center no-repeat;
-	width: 40%;
-	height: 300px;
+	width: 50%;
+
 	list-style-type:none;
 	margin-right:180px;
 	float:right;
@@ -522,7 +522,7 @@ a {
 	background:url(imgs/contact/inslg.png) center bottom no-repeat;
 	width: 60px;
 	height: 250px;
-	float:left;
+	
 	display:inline-block;
 }
 
@@ -530,7 +530,7 @@ a {
 	background:url(imgs/contact/linkedlg.png) center bottom no-repeat;
 	width: 60px;
 	height: 250px;
-	float:left;
+	
 	display:inline-block;
 }
 
@@ -539,7 +539,7 @@ a {
 	background:url(imgs/contact/twitterlg.png) center bottom no-repeat;
 	width: 60px;
 	height: 250px;
-	float:left;
+	
 	display:inline-block;
 }
 
