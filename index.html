@@ -1,79 +1,674 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
 <html lang="en">
+
 <head>
-	<link href="style.css" rel="stylesheet" media="screen">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lin Wang's UX Show and Share">
+    <meta name="author" content="Lin Wang">
+
+    <title>Lin Wang's Portfolio - I'm a UX designer.</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-	<div id="menubar">
-		<div id="menu-content">
-			<span>
-				<a href="index.html" id="menulogo"><img src="MenuBarLogo.png"></a>
-				<a href="index.html">HOME</a>
-				<a href="https://medium.com/@LinWang">WRITING</a>
-			</span>
-		</div>	
-	</div>
-	<div id="landing-background">
-		<div id="landing-logo">
-		</div>
-	</div>
 
-	
-	<div class="section-title">
-		<p id="about_me">About Me</p>
-		<div class="section-container">
-			
-			<div id="profile">
-			</div>
-			<div id="about_me_content">
-				<p>Hi This is <b>Lin</b>. Designer, dreamer, climber, yogi, coder. <hr> Earned my Bachelor of Architecture then Master of Science in Packaging Design. <hr> Now a passionate Product designer. And an enthusiast of front-end web development. <hr> Thanks for visiting me here. This website is  <u><i>still under construction</i></u>. Please come back later for <u>more of my UX works (They are on their way!)</u>. I also write on Medium here: <a href="https://medium.com/@LinWang"><strong>My Medium</strong></a> Let's connect! Various ways to find me, links down below :) I am in love with <a href="https://twitter.com/linafab"><strong>Twitter</strong></a> Follow me there :) <a href="mailto:lin@tradecrafted.com"><strong>Drop me a line</strong></a>. I'm always up to meet new people to talk about ideas, design, tech :) </p>
-			</div>
-			
-		</div>
-		<div id="social">
+<body id="page-top" class="index">
 
-			<div class="social-list">
-				<div id="connectme">
-					<p>Connect</p>
-				</div>
-				<ul>
-					<a href="https://twitter.com/linafab"><li id="twitter"></li></a>
-					<a href="http://instagram.com/lina_debeselis"><li id="insta"></li></a>
-					<a href="https://www.linkedin.com/in/linwangsf"><li id="linkedin"></li></a>
-					
-				</ul>
-			</div>
-			
-		</div>
-			
-	</div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Lin Wang</a>
+            </div>
 
-	<div id="footer">
-		Copyright © 2014 Lin Wang   Developed by Lin Wang
-	</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/linprofilepic.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Hi! It's Lin :) </span>
+                        <hr class="star-light">
+                        <span class="skills"> UX Designer - Web Developer - Product Designer - Graphic Artist  </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                               <p>My Design Process<br>Instagram Collage Feature</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>UX Design<br>Hint Health</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                 <p>Usability Test<br>Spotify</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Coming Soon<br>Telecure</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                 <p>Coming Soon<br>Hint Health</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Coming Soon<br>BoxPlot.io</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                               <p>Coming Soon<br>Socionaut</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Coming Soon<br>Yusemite.Inc</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cake2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                 <p>Coming Soon<br>My Illustrations and others</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cabin2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Hi I'm Lin! :) I am a product designer who is passionate about technology and an enthusiast of front-end development. I love creating user expereince that makes people's life more enjoable.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Earned my Bacherlor's in Architecture, Master's in Print and Packaging design. I love how I can apply what I learned throughout the programs to product design in Tech. I'm always excited to learn. If you have any questions about me or just want to say hi. <br><a href="mailto:lin@tradecrafted.com"><span style="color: #ba4c63;">My Email Address</span></a></p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Making designs with love<br>in San Francisco</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Find Me On The Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/Lin.S.wang" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/linafab" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/linwangsf" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>My Writings.</h3>
+                        <p>You can find my post here on Medium. Hope you like them :) <a href="https://medium.com/@LinWang">Lin's Medium</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Lin Wang 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>My Design Process: Make A Photo Collage on Instagram</h2>
+
+                            <hr class="star-primary">
+                            <img src="img/portfolio/instaheader.png" class="img-responsive img-centered" alt="instagram_header_img">
+                            
+                            <p><a href="http://instagram.com/">Instagram</a> is a great product. I use it quite often myself. It lets you share stories of your life with friends and the world. But sometimes, it is pretty challenging to just use one photo to tell a compelling story. No wonder a Google search for <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=how+to+make+a+collage+on+instagram">“how to create collages on Instagram”</a> returns over 9 million results.</p>
+                            <p>This is the prototype and I will explain how I got there ☺</p>
+                            <iframe src="http://player.vimeo.com/video/99034774" width="337" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+                            <h3>Problem</h3>
+                            <p>I noticed that many Instagram users post photo collages—pictures with multiple different photographs arranged in an artful way, often telling a little story. But, to get these collages into Instagram, users must currently use 3rd party apps. These apps don’t offer the same great user experience as Instagram does, and are usually quite buggy.<br><br>
+
+                            My goal here is to solve this problem — to let users share multiple photos at once easily, simply, and beautifully.</p><br>
+                            <h3>Project</h3>
+                            <p>As a design challenge, I researched, ideated, wireframed, and prototyped a collage feature for Instagram users. This feature is simple to use, and consistent with the updated Instagram UI. It gives users more freedom to capture the moments they love and tell compelling visual stories.</p><br>
+                            <h3>My Role</h3>
+                            <p>As the user researcher and product designer, my role is to develop:</p><br>
+
+                            <p>• Persona • User Stories • User Task Flows • Wireframes •User Interface Design • Prototype •Usability Test</p><br>
+                            <h3>Epics</h3>
+                            <p>An epic is a large scale user story that provides an overview of a feature — a high level design story. It helps me fully think through my designs. Here are the epics I’m addressing with this project.<br><br>
+
+                            Users can create, edit, view, share and delete image collages.</p><br>
+                            <h3>Design Stories</h3>
+                            <p>Writing design stories is a very helpful agile technique to capture product functionality. They are detailed descriptions of what the users can do. Here are some of the design stories for my feature.<br><br>
+
+                            Users can: take/select multiple pictures and use them to create a photo collage; edit photos in photo collages; choose collage templates; reposition and replace photos in collages; view collages; cancel making a photo collage; add captions to the collage; add location, tag people in the collage; share the collage, etc.</p><br>
+                            <h3>Persona Development</h3>
+                            <p>To try and understand the people I am designing for, I created a persona. This persona will guide my feature development and help me focus on the key problem I am solving. It makes the design decisions less abstract and more human.<br><br>
+
+                            Below is the persona that I created for this photo collage feature. Meet Lucy:</p><br>
+                            <img src="img/instagram/personalucy.jpg" class="img-responsive img-centered" alt="instagram_header_img"><br><br>
+                            <h3>User Task Flow</h3>
+                            <p>Some people think of Instagram as a camera and some people think of it more as a photo editing app. Instagram recently included a lot more editing features into the application, but they kept the camera experience very clean. I chose to preserve this user flow, and put my new photo collage feature within Instagram’s editing section. I’ve included my user flow chart below. The highlighted section is the main flow of my new feature.</p><br><br>
+                            <img src="img/instagram/InstagramWorkflow.png" class="img-responsive img-centered" alt="instagram_header_img"><br><br>
+                            <h3>Wireframes</h3>
+                            <p>My next step was starting to visualize my new user task flow. I started with sketches on paper. I had a few different versions, but ended up deciding that the version below was the most promising. After some quick usability tests, this version enabled users to create collages the quickest and easiest. (There will be another post about why I did not choose the other designs. Oh iterations☺)</p><br><br>
+                            <img src="img/instagram/handsketch.jpg" class="img-responsive img-centered" alt="instagram_header_img"><br><br>
+                            <p>Below are the detailed wireframes I developed based on the sketches above. I assumed that maximum of 3 photos in a collage would be the best for the feature for now, because it would give users just enough flexibility and control to enjoy the process of making and sharing photo collages. This is still a hypothesis that needs more testing. My assumption is based on user interviews, the size limitation of the mobile devices and the ease of use to create something with quality.</p><br><br>
+                            <img src="img/instagram/wireframe2.png" class="img-responsive img-centered" alt="instagram_header_img"><br><br>
+                            <h3>Prototype</h3>
+                            <p>I tested my low fidelity wireframes with some colleagues and created a quick high fidelity prototype to test more. This prototype helps me further test my user task flow and catch any errors in the early stage. I am going to do more usability testing in the future to validate this design.<br><br>
+
+                            Below is the video you just saw earlier, demonstrating how users might use this photo collage feature in Instagram.</p><br><br>
+                            <iframe src="http://player.vimeo.com/video/99034774" width="337" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br>
+                            <h3>The next steps will be:</h3>
+                            <P>• Validating my design<br>
+                            • Usability test<br>
+                            • Make Adjustments<br>
+                            • Iterate<br><br>
+                            As an avid and happy user of Instagram, I had a great time working on this project. I’d love to see this feature in the real app someday. It would be great to see if a collage feature would work well and get data from users to iterate.<br><br>
+
+                            If you have any follow-up questions or comments, feel free to send them to me at: lin @ tradecrafted.com . Or tweet me at <a href="https://twitter.com/linafab">@linafab</a> Would love to hear what you think and if you have any suggestions on how to improve this feature, I’d love to hear!</p><br><br>
+
+
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Myself</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">June 2014</a>
+                                    </strong>
+                                </li>
+                                <li>My Role:
+                                    <strong><a href="">Product Designer, Project Manager, Visual Designer</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>UX Design - Hint Health</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>Coming Soon</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Hint Health</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">July 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong><a href="">UX designer, Web design</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Spotify : I love you, and please change ☺</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>I’m a big indie music fan and I use Spotify everyday. It provides the soundtrack to my heart. But, just like any great product, there is still room for improvement. A quick usability test reveals that people run into critical issues using some Spotify features.</p><br>
+                            <h3>Objective</h3>
+                            <p>Identify the pain points of finding, organizing and sharing music within Spotify web application on the desktop.</p><br>
+                            <img src="img/spotifytest/landingpage.png" class="img-responsive img-centered" alt="">
+                            <p><i><center>Current Spotify web application landing page user interface (as of May 24th, 2014)</center></i></p><br>
+                            <p><strong>What:</strong> Spotify web app<br><br>
+
+                            <strong>Who:</strong> Eight existing Spotify users who listen to music everyday (not necessarily using Spotify)<br><br>
+
+                            <strong>Where:</strong> San Francisco</p><br><br>
+                            <h3>Participant selection:</h3>
+                            <p>I created a persona before I conducted my user tests. I used the persona to select my participants. Meet my persona, Nick!</p><br><br>
+                            <img src="img/spotifytest/PersonaNick.jpg" class="img-responsive img-centered" alt="">
+                            <h3>Test tasks:</h3>
+                            <p>1. Create a personal playlist<br>
+                            2. Add song(s) to the playlist<br>
+                            3. Edit the playlist and share it<br>
+                            4. Subscribe to (follow) artists<br><br>
+                            I determined the tasks based on the essential needs of using online music streaming services. I phrased the tasks as open-ended scenarios to avoid leading the participants to complete the task in a predetermined way.</p><br><br>
+                            <h3>Processing:</h3>
+                            <p>The eight usability tests were recorded using QuickTime. I reviewed the recordings, took notes, identified and prioritized usability issues.</p><br>
+                            <img src="img/spotifytest/BeginNoteTaking.jpg" class="img-responsive img-centered" alt="">
+                            <p><i><center>Notes taken at each session with major pain points reflected from users.</center></i></p>
+                            <img src="img/spotifytest/Degree.jpg" class="img-responsive img-centered" alt="">
+                            <p><i><center>Pain points bucketed according to user actions</center></i></p>
+                            <p>As you can see, there are a lot of issues going on here and I am not going to address them all in one single post. Instead, let’s take a look at some of the focused changes that may make using Spotify a more enjoyable experience.</p><br><br>
+                            <h3>Issue 1</h3>
+                            <h4>Search results hard to filter</h4>
+                            <p><strong>Users expect to be able to customize their search results.</strong></p><br>
+                            <p><i>“The reason I don’t use Spotify is that it is so hard for me to find anything.” — User</i><p><br>
+                            <p>The picture below demonstrates that the user wanted to find a song that contained “tourist” in the title. The user typed “tourist” into the search bar, but the results were impossible to sort or filter. The user could not find the intended song.</p><br>
+                            <img src="img/spotifytest/searchsong.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>How about we try this?</strong><br><br>
+
+                            Allow users to sort/filter song lists by artist or album or even date of release.</p><br><br>
+                             <img src="img/spotifytest/searchsongRevise2.jpg" class="img-responsive img-centered" alt=""><br>
+                             <h3>Get to the next level</h3><br>
+
+                            <p>Talented and well-respected designer <a href="https://twitter.com/dburka">Daniel Burka</a> kindly pointed out that “…users aren’t trying to sort results better…they’re trying to filter the results.”<br><br>
+
+                            In the case of Spotify’s filtering system, shown below— They have filters such as “Albums”, “Artists”, “Profiles”, “Playlists” and “Songs” (I discussed this earlier). But the way Spotify lays out these filters confuses users — they are visually too similar.</p><br><br>
+                            <img src="img/spotifytest/Update01.jpeg" class="img-responsive img-centered" alt=""><br>
+                            <p><strong>How about we try this?</strong></p>
+
+                            <p>There is an opportunity to subtly differentiate these kinds of results that I’ve detailed below.</p>
+                            <img src="img/spotifytest/update02.jpeg" class="img-responsive img-centered" alt=""><br>
+                            <h3>Issue 2</h3>
+                            <h4>The tooltips are confusing.</h4>
+                            <p><strong>Users expect the “+” to mean “add to,” instead of “save,” “follow,” or “blank.”</strong></p><br>
+                            <p><i>“By clicking on it, I thought it would add the song to my playlist. Where does it save to?” — User<br>
+                            “Gosh, this is confusing!” — User<br><br>
+                            “Why is there such a function?” — User</i><p><br><br>
+                            <p>Every participant clicked the “+” sign to add their first song to their playlist. Half of the participants still accidentally clicked on it even after they realized that it was wrong. This icon also appears to be “follow” and “null” on different pages, as shown below. The inconsistency confused the participants.<p><br>
+                            
+                            <img src="img/spotifytest/plusSignSave.png" class="img-responsive img-centered" alt=""><br>
+                            <p><i><center>When moused over the “+”, it says “save” but no one knew what this meant or where the song was saved to. (As of May 21st, 2014)</center></i></p>
+                            
+                            <img src="img/spotifytest/followplaylist.png" class="img-responsive img-centered" alt=""><br>
+                            <p><i><center>“+” here means “Follow” which is confusing because it previously meant “save.”</center></i></p>
+
+                            <img src="img/spotifytest/NothingPlusSign.png" class="img-responsive img-centered" alt=""><br>
+                            <p><i><center>On the playlist page,this button has no tool tip, which is obviously not helpful</center></i></p>
+
+                            <p><strong>How about we try this?</strong></p>
+
+                            <p>Give the “+” icon an “add to” function, which enables users to choose which playlist they want to “save” the song to.</p>
+                            <img src="img/spotifytest/AddTo.png" class="img-responsive img-centered" alt=""><br>
+                            <h3>Issue 3</h3>
+                            <h4>Why am I following?</h4>
+                            <p><strong>The “Follow” button is a mystery to users.</strong></p><br>
+
+                            <p>The “Follow” button confused all the participants. Each one thought the artists they followed should be listed under the “Follow” button on the left panel, but they are not.</p>
+                            <p><i> “Where are my followed artists?” — User<br><br>
+                            “What does ‘following’ mean?” — User<br><br>
+                            “I’d still just use Search to find the artist instead of using this ‘following’ thing.” — User</i></p><br>
+
+                            <p>The participants expected the “Follow” page to show them a list of the artists they are already following. Instead, the page has only the three options illustrated below.</p><br>
+                            <img src="img/spotifytest/FollowWhat.png" class="img-responsive img-centered" alt="">
+                            <p><i><center>The Follow button on the left panel actually takes users to a page to do the action “follow”.</i></center></p>
+                            <br>
+                            <p><strong>How about we try this?</strong></p><br>
+
+                            <p>Add the “followed artists” section into the “Follow” page. Show news feed, tour dates, and merchandise information as a clear option. A design recommendation is shown below.</p>
+                            <img src="img/spotifytest/followRevised.jpg" class="img-responsive img-centered" alt="">
+                            <p><strong>Get to the next level</strong></p><br>
+
+                            <p>There’s no doubt Spotify’s current design is clean, but is it informative enough? At this point, could replacing icons with named features benefit the User Experience without damaging the visual elegance?</p><br>
+
+                            <p><i>“Having to hover over a button to deduce its purpose is poor UI even if it’s super compact. ”— <a href="https://twitter.com/dburka">@Daniel Burka</a></i></p><br>
+                            <p>I did additional user interviews around this concept and found a few problematic organizational problems in the navigation panel.<p><br><br>
+                            <img src="img/spotifytest/update03.jpeg" class="img-responsive img-centered" alt="">
+                            <p><i><center>The original Spotify navigation panel.</center></i></p><br>
+                            <p>I also think the big buttons are more appropriate for the touch-screen devices, and a more traditional desktop application (e.g., iTunes) approach would make it easier for users to understand on desktops.<br><br>
+
+                            So in an attempt to bring more information to the surface of the interface , I made some design suggestions as shown below:</p><br>
+                            <img src="img/spotifytest/update04.jpeg" class="img-responsive img-centered" alt="">
+
+                            <h3>Next Steps</h3>
+                            <p>• Validating my design recommendations<br>
+                            • Test more <br>
+                            • Iterate </p><br><br>
+                            <p>The goal of user research is to understand the target user’s needs and motivations so that we can develop products that they truly love. I’ll be using these needs and motivations to drive the development of the product at each subsequent step of my design process.<br><br>
+
+                            Note: I do not work for or represent Spotify. I chose Spotify because I use it everyday and I love it — I would like to make it even better so that more music lovers can enjoy music the way they want to. I am a UX designer studying advanced shipping methods under Kate Rutter and Laura Klein @ Tradecraft. I hope to use my design skills to make products serve people better. ☺<br><br>
+
+                            Special thanks to Daniel Burka who shared insights and pushed me to go further in my designs. You are so thoughtful and kind!<br><br>
+
+
+
+
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Myself + Tradecraft</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">May 2014</a>
+                                    </strong>
+                                </li>
+                                <li>My Role:
+                                    <strong><a href="">UX researcher, Ideation, Usability Test</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Responsive Mobile Design</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Coming Soon</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Telecure</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">July 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong><a href="">Web Design, UX Design</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Landingpage Optimization</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Coming Soon</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Hint Health</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">June 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong><a href="">Web Design, UX Design, Visual</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>BoxPlot.io</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Coming Soon!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Boxplot.io</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">July 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="">Web Design, UX, Visual</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
 </body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>
-Height = 678;
-$(window).scroll( function () {
-	$('#landing-logo').css('opacity', Math.max(0, 1 - $(window).scrollTop()/Height) );
-	$('#menubar').css('top', Math.min(0, 100*$(window).scrollTop()/Height - 100) );
-});
 
-$("#projects-list>li a").hover(function () {
-	$( this ).siblings("span").children(".label").toggleClass('fullsize');
-});
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-52768899-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </html>
