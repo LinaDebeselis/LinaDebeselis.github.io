@@ -39,7 +39,7 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.5em;
 		color: #888;
 	}
 
@@ -47,7 +47,7 @@
 	{
 		font-weight: 300;
 		color: #666;
-		line-height: 1.5em;
+		line-height: 1.25em;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -84,7 +84,7 @@
 		}
 
 		p{
-			font-size: 1.25em;
+			font-size: 1.05em;
 			text-align: left;
 		}
 
