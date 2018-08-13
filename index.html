@@ -1,172 +1,148 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
 
-<html>
-	<head>
-		<title>Lin Wang's Awesome UX Portfolio</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="Lin's UX design portfolio." />
-		<meta name="keywords" content="UX, Design, Visual" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollzer.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
+  <style>
 
-		<!-- Header -->
-			<div id="header" class="skel-layers-fixed">
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding-top: 2em;
+  }
 
-				<div class="top">
+  .lin-left-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="img/linprofilepic.png" alt="" /></span>
-							<h1 id="title">Lin Wang</h1>
-							<p>UX Designer</p>
-						</div>
+  .title {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight:lighter;
+    margin: 0;
+  }
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Hello, World!</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-						
-				</div>
-				
-				<div class="bottom">
+  .content{
+    font-family: monospace;
+    font-size: 24px;
+    font-weight:lighter;
+    font-kerning:auto;
+    margin-top: 0;
+    line-height: 1.3em;
+    text-align: left;
+  }
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="http://twitter.com/linafab" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/Lin.S.wang" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.behance.net/of22" class="icon fa-behance"><span class="label">Behance</span></a></li>
-							<li><a href="http://instagram.com/lina_debeselis" class="icon fa-instagram"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.linkedin.com/in/linwangsf" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						</ul>
-				
-				</div>
-			
-			</div>
 
-		<!-- Main -->
-			<div id="main">
+  .lin-right-container {
+      max-width: 100%;
+  }
 
-				<!-- Intro -->
-					<section id="top">
-						<div class="container">
+  .lin-left {
+  }
+  .lin-right {
+  }
 
-							<header>
-								<h3 class="alt">Hi! I'm Lin :) A passionate UX (Product) designer living in San Francisco. <br></h3>
-								<p> Professionally trained to do UX design for fast-growing tech startups. Prior to that, I earned my Bachelor of Architecture then Master of Science in Graphic Communications.</p>
-							</header>
-							
-							
+  .lin-img {
+      max-width: 520px;
+      width: 100%;
+  }
 
-						</div>
-					</section>
-					
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-					
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-							
-							<p>Below, find my most recent UX/product designs. </p>
-						
-							<div class="row">
-								<div class="4u">
-									<article class="item">
-										<a href="insta.html" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										
-									</article>
-									<article class="item">
-										<a href="hint.html" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										
-									</article>
-								</div>
-								<div class="4u">
-									<article class="item">
-										<a href="telecure.html" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										
-									</article>
-									<article class="item">
-										<a href="linsite.html" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										
-									</article>
-								</div>
-								<div class="4u">
-									<article class="item">
-										<a href="spotify.html" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										
-									</article>
-									<article class="item">
-										<a href="illus.html" class="image fit"><img src="images/pic09.jpg" alt="" /></a>
-										
-									</article>
-								
-							</div>
+  .text-link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
 
-						</div>
-					</section>
+  .text-link:hover {
+    color: #000000;
+    background-color: #D4DCE6;
+    text-decoration: none;
+}
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
 
-							<header>
-								<h2>About Me</h2>
-							</header>
+.icon{
+  margin-right: 0.25em;
+  opacity: 1.0;
+}
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-							
-							<p>I'm a designer with a focus on digital product design. My main strength is multi-disciplinary and collaborative design thinking. I specialize in UX + UI design, information architecture, visual design, usability testing, user research, project management. Love HTML & CSS. I love indie music and I play piano. Probably one of the most passionate UX designers ever :) </p>
+.icon:hover {
+  opacity: 0.6;
+}
 
-						</div>
-					</section>
-			
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+    padding-top: 0;
+  }
 
-							<header>
-								<h2>Contact Me</h2>
-							</header>
+  .lin-img {
+    margin-top: -70%;
+    transform: rotate(180deg);
+  }
+}
+  </style>
 
-							<p>Easiest way to reach me is to E-mail me. Click on this envelope <a href="mailto:lin@tradecrafted.com"><span style="color: #2c3e50; font-size: 22px"><i class="fa fa-fw fa-envelope"></i></span></a> :)</p>
-							<p>I write here at >> <a href="https://medium.com/@LinWang">Medium</a> about UX and design.</p>
-							
-							<p>OR...Tweet me <a href="http://twitter.com/linafab" target="_blank">@linafab</a></p>
+</head>
 
-						</div>
-					</section>
-			
-			</div>
+<body>
+<div class="container">
+  <div class="lin-left-container">
+    <div class="lin-left">
+      <h2 class="title">Hello world!</h2>
+      <p class="content">I'm Lin. An <br>experienced product designer <br>based in San Francisco. </p>
+    </div>
+    <div class="lin-left">
+      <h2 class="title">Currently, I'm at</h2>
+      <p class="content"><a href="http://lyft.com" target="_blank" class="text-link">Lyft</a></p>
+    </div>
+    <div class="lin-left">
+      <h2 class="title">Some past</h2>
+      <p class="content">
+        <a href="http://hipmunk.com" target="_blank" class="text-link">Hipmunk</a>
+        <br>
+        <a href="http://roost.com" target="_blank" class="text-link">Roost</a>
+        <br>
+        <a href="https://www.hint.com/" target="_blank" class="text-link">Hinthealth</a>
+      </p>
 
-		<!-- Footer -->
-			<div id="footer">
-				
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Lin Wang 2015. All rights reserved.</li>
-					</ul>
-				
-			</div>
+    </div>
+    <div class="lin-left">
+      <h2 class="title">Hobbies</h2>
+      <p class="content">
+        <a href="https://www.behance.net/gallery/12378205/Dreams-in-San-Fran" target="_blank" class="text-link">Illustrations</a>
+        <br>
+        <a href="https://medium.com/@LinWang" target="_blank" class="text-link">Writings</a>
+      </p>
+    </div>
+    <div class="lin-left">
+      <h2 class="title">Contact</h2>
+      <p class="content">
+        <a href="https://twitter.com/linafab" target="_blank" class="text-link">Tweet Moi</a><br>
+        <a href="mailto:floral2lin@gmail.com" target="_blank" class="text-link">E-mail Moi</a></p>
+    </div>
+    <div class="lin-left">
+      <h2 class="title"><br><br>Find me on these</h2>
+      <p>
+      <a class="icon" href="https://www.facebook.com/lina.debeselis.88" target="_blank"><img src="img/fb.png"></img></a>
+      <a class="icon" href="https://www.instagram.com/lina_debeselis/" target="_blank"><img src="img/instagram.png"></img></a>
+      <a class="icon" href="https://twitter.com/linafab" target="_blank"><img src="img/twitter.png"></img></a>
+      <a class="icon" href="https://www.linkedin.com/in/linwangsf/" target="_blank"><img src="img/linkedIn.png"></img></a>
+      <a class="icon" href="https://www.behance.net/of22" target="_blank"><img src="img/behance.png"></img></a>
+      <a class="icon" href="https://dribbble.com/linafab" target="_blank"><img src="img/dribbble.png"></img></a></p>
+    </div>
 
-	</body>
+  </div>
+  <div class="lin-right-container">
+    <div class="lin-right">
+      <img class="lin-img" src="img/flower-girl-oct2016s.jpg" height=auto></img>
+    </div>
+
+  </div>
+</div>
+</body>
 </html>
